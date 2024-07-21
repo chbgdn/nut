@@ -82,6 +82,7 @@
 #include "nutdrv_qx_zinto.h"
 #include "nutdrv_qx_masterguard.h"
 #include "nutdrv_qx_ablerex.h"
+#include "nutdrv_qx_njoy.h"
 
 /* Reference list of available non-USB subdrivers */
 static subdriver_t	*subdriver_list[] = {
@@ -97,6 +98,7 @@ static subdriver_t	*subdriver_list[] = {
 	&masterguard_subdriver,
 	&hunnox_subdriver,
 	&ablerex_subdriver,
+	&njoy_subdriver,
 	/* Fallback Q1 subdriver */
 	&q1_subdriver,
 	NULL
