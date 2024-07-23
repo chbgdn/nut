@@ -56,8 +56,8 @@ SERIAL_DRIVERLIST = al175 bcmxcp belkin belkinunv bestfcom	\
  bestfortress bestuferrups bestups etapro everups 	\
  gamatronic genericups isbmex liebert liebert-esp2 masterguard metasys	\
  mge-utalk microdowell microsol-apc mge-shut oneac optiups powercom rhino 	\
- safenet nutdrv_siemens-sitop solis tripplite tripplitesu upscode2 victronups powerpanel \
- blazer_ser ivtscd apcsmart apcsmart-old riello_ser sms_ser bicker_ser
+ safenet salicru nutdrv_siemens-sitop solis tripplite tripplitesu upscode2 victronups	\
+ powerpanel blazer_ser ivtscd apcsmart apcsmart-old riello_ser sms_ser bicker_ser
 SNMP_DRIVERLIST = snmp-ups
 USB_LIBUSB_DRIVERLIST = usbhid-ups bcmxcp_usb tripplite_usb \
  blazer_usb richcomm_usb riello_usb \
@@ -173,6 +173,7 @@ powerpanel_LDADD = $(LDADD) -lm
 rhino_SOURCES = rhino.c
 rhino_LDADD = $(LDADD) -lm
 safenet_SOURCES = safenet.c
+salicru_SOURCES = salicru.c
 nutdrv_siemens_sitop_SOURCES = nutdrv_siemens_sitop.c
 solis_SOURCES = solis.c
 solis_LDADD = $(LDADD) -lm
